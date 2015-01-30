@@ -43,9 +43,9 @@ userArray.push(new User ('Zander', 'ztrain01@gmail.com', 'whatisl0v3?'));
 console.log('All my users names are ');
 //Now loop through your users Array and console.log every users name. 
 
-  //code here
-var userLooper = function(arr, cb) {
+
   for (var i = 0; i < userArray.length; i++) {
+    console.log(userArray[i].name)
 }
 
 console.log('All my users names are ')
